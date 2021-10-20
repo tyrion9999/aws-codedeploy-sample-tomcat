@@ -12,7 +12,7 @@ sudo systemctl start tomcat
 #sudo systemctl restart tomcat
 cp /target/SampleMavenTomcatApp.war /var/lib/tomcat/webapps
 
-systemctl restart tomcat
+#systemctl restart tomcat
 
 # set -e
 
