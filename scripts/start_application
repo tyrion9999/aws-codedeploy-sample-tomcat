@@ -2,7 +2,7 @@
 
 #aws s3 cp s3://javacodebuild/tomcat-Build/target/SampleMavenTomcatApp.war /var/lib/tomcat/webapps
 
-aws s3 cp s3://myjava/RRR/target/SampleMavenTomcatApp.war /tmp/
+aws s3 cp s3://myjava/RRR/target/SampleMavenTomcatApp.war .
 #unzip '*.zip'
 #Install tomcat web server
 
@@ -10,7 +10,7 @@ sudo yum install tomcat -y
 sudo yum install tomcat-webapps tomcat-admin-webapps tomcat-docs-webapp tomcat-javadoc -y
 sudo systemctl start tomcat
 #sudo systemctl restart tomcat
-cp /tmp/ /var/lib/tomcat/webapps/
+ cp SampleMavenTomcatApp.war /var/lib/tomcat/webapps/
 
 #systemctl restart tomcat
 
