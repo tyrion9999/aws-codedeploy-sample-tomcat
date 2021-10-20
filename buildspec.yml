@@ -10,5 +10,5 @@ artifacts:
   files:
     - '**/*.war'
     - appspec.yml
-    - '../scripts/startapplication'
+    - 'scripts/start_application'
     - '../scripts/stopapplication'
