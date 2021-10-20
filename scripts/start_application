@@ -3,8 +3,8 @@
 #aws s3 cp s3://javacodebuild/tomcat-Build/target/SampleMavenTomcatApp.war /var/lib/tomcat/webapps
 
 # aws s3 cp s3://javacodebuild/myjavabuilds/javawebapp.zip .
-unzip '*.zip'
-cp target/SampleMavenTomcatApp.war /var/lib/tomcat/webapps
+# unzip '*.zip'
+cp RRR/target/SampleMavenTomcatApp.war /var/lib/tomcat/webapps
 
 systemctl restart tomcat
 
