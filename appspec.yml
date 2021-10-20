@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/SampleMavenTomcatApp.war
+  - source: /target/
     destination: /tmp/codedeploy-deployment-staging-area/
 hooks:
   ApplicationStop:
