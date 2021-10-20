@@ -11,4 +11,4 @@ artifacts:
     - '**/*.war'
     - appspec.yml
     - 'scripts/start_application'
-    - '../scripts/stopapplication'
+    - 'scripts/stop_application'
