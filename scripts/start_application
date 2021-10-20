@@ -4,6 +4,12 @@
 
 # aws s3 cp s3://javacodebuild/myjavabuilds/javawebapp.zip .
 # unzip '*.zip'
+#Install tomcat web server
+
+sudo yum install tomcat -y
+sudo yum install tomcat-webapps tomcat-admin-webapps tomcat-docs-webapp tomcat-javadoc -y
+sudo systemctl start tomcat
+#sudo systemctl restart tomcat
 cp /target/SampleMavenTomcatApp.war /var/lib/tomcat/webapps
 
 systemctl restart tomcat
