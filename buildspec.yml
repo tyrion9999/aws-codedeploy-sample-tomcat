@@ -8,5 +8,5 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
+    - '**/*.war'
    # - appspec.yml
