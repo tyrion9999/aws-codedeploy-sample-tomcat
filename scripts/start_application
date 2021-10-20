@@ -1,6 +1,6 @@
 #!/bin/bash
 
-aws s3 cp s3://javacodebuild/javatrial/target/hello-null.war /var/lib/tomcat/webapps
+aws s3 cp s3://javacodebuild/tomcat-Build/target/SampleMavenTomcatApp.war /var/lib/tomcat/webapps
 
 systemctl restart tomcat
 
