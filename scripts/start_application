@@ -2,7 +2,7 @@
 
 #aws s3 cp s3://javacodebuild/tomcat-Build/target/SampleMavenTomcatApp.war /var/lib/tomcat/webapps
 
-aws s3 cp s3://khaldrago/RRR/target/SampleMavenTomcatApp.war .
+aws s3 cp s3://s3-awsbucket-99/RRR/target/SampleMavenTomcatApp.war .
 #unzip '*.zip'
 #Install tomcat web server
 
